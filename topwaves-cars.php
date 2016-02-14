@@ -75,6 +75,13 @@ Topwaves_Cars()->register_taxonomy(
 );
 
 Topwaves_Cars()->register_taxonomy(
+	'car_fuel',
+	__( 'Fuel Types', 'topwaves-cars' ),
+	__( 'Fuel type', 'topwaves-cars' ),
+	'car'
+);
+
+Topwaves_Cars()->register_taxonomy(
 	'car_status',
 	__( 'Car Status', 'topwaves-cars' ),
 	__( 'Car Status', 'topwaves-cars' ),
